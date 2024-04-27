@@ -6,4 +6,6 @@ Rails.application.routes.draw do
       resources :users, only:[:index]
     end
   end
+
+  # get '/favicon.ico', to: proc { [204, {}, ['']] }
 end
